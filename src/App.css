@@ -1,0 +1,94 @@
+body{
+  background-image: url("imgs/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.container{
+  display: flex;
+  margin: 0px 116px;
+  color: aliceblue;}
+
+.container .ordersContainer{
+  margin-left: 50%;
+}
+
+.formContainer{
+  background-color: rgba(204, 202, 202, 0.4);
+  height: 496px;
+  width: 80%;
+
+}
+
+form{
+  height: 100px;
+  width: 350px;
+  /* font-size: 24px; */
+  /* line-height: 2; */
+  margin: 0 7%;
+}
+
+form label{
+  color: rgb(255, 255, 255);
+  display: block;
+  margin: 0px 0px -21px 0;
+  font-size: 18px;
+  letter-spacing: -1.6px;
+}
+form input{
+  padding: 10px 32px;
+  width: 189px;
+}
+
+form select{
+  padding: 10px 21px;
+  width: 255px;
+}
+
+.ordersContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.order{
+  border: 5px solid #6d6875;
+  background-color: rgba(204, 202, 202, 0.4);
+  width: 217px;
+
+}
+
+.count{
+  margin-left: 75%;
+  color: antiquewhite;
+}
+
+.formContainer h3{
+  color: antiquewhite;
+  margin-left: 6%;
+  font-size: 34px;
+  margin-bottom: 1px;
+}
+
+.button{
+    margin-left: 57%;
+    background-color: antiquewhite;
+    border: none;
+    color: #6d6875;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgba(210, 105, 30, 0.7);
+    margin: 55px 530px 0 530px;
+    color: antiquewhite;
+    font-weight: 400;
+}
+
